@@ -1,0 +1,53 @@
+header{
+    background-image: url(../assets/brooke-lark-230140-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    padding: 1px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: $darkest-color;
+    @include title(3.8rem);
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+
+
+// PHONES AND SMALLER
+@media (min-width: 400px) {
+   h1{
+       @include title(5rem); 
+    } 
+}
+@media (min-width: 480px) {
+   h1{
+       @include title(6rem); 
+    } 
+}
+//IPAD STYLES FOR HEADER
+@media (min-width: 768px) {
+    h1{
+       @include title(7rem); 
+    }
+}
+
+//DESKTOP STYLES FOR HEADER
+@media(min-width:940px){
+    h1{
+        @include title(8rem); 
+    }
+};
+//SMALLER TO LARGER SCREENS
+@media(min-width:1080px){
+    h1{
+        @include title(9rem); 
+    }
+}

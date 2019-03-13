@@ -1,0 +1,11 @@
+footer {
+    background-color: $darkest-color;
+    color: $lightest-color;
+
+    .wrapper p {
+        @include body-text(0.8rem);
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+    }
+}

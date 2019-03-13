@@ -1,0 +1,51 @@
+$darkest-color: #1F1C1D;
+$lightest-color: #F4F7F8;
+$background-section-color: #DAE5D9;
+$main-detail-color:#E84B4B;
+$secondary-detail-color: #9BBA99;
+
+// FONT STYLES FOR MAIN TITLE
+@mixin title($size-value) {
+    font-family: 'Staatliches', cursive;
+    font-size: $size-value;
+    text-transform: uppercase;
+}
+
+//FONT STYLES FOR BODY TEXT
+@mixin body-text($size-value) {
+    font-family: 'Lato', sans-serif;
+    font-size: $size-value;
+}
+
+html {
+    font-size: 125%;
+}
+
+body {
+    background-color: $background-section-color;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    li {
+        text-align: center;
+    }
+}

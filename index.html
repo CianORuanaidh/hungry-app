@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HUNGRY?</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Staatliches" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>Hungry?</h1>
+        </div>
+        <!-- INPUTS BY USER (INGREDIENT SEARCH AND SUBMIT) GOES HERE -->
+        <form class="user-input" action="">
+            <input type="text" name="search" id="search-recipe" placeholder="I want to eat...">
+            <label for="search-recipe"></label>
+
+            <input type="submit" id="search-btn" value="Show recipes">
+            <label for="search-btn"></label>
+        </form>   
+    </header>
+    <main class="display-none">
+        <div class="wrapper">
+            <h2>Click on your favorite recipe:</h2>
+            
+            <!-- PHOTO GALLERY WITH 3 RECIPE PHOTOS -->
+            <div class="gallery">
+                <!-- MAYBE THE DIVS INSIDE GALLERY WILL BE ADD ONLY BY JS AND IT WILL NEED TO BE REMOVE FROM HERE -->
+            </div>
+
+        </div>
+
+        <section id="recipe-clicked">
+            <div class="wrapper">
+                <!-- CONTENT SELECTED BY USER IN THE GALLERY WILL APPEAR HERE -->
+                <h2 class="recipe-title"></h2>
+                <div class="photo-box chosen-photo">
+                    <div class="photo-box chosen-photo">
+                        <img class="selected-image" src="" alt="">
+                        <div class="imgredient-info">
+                            <div class="recipe-info">
+                                <h2 class="">Ingredients</h2>
+                                <ul class="ingredient-list">
+                                </ul>
+                                <h2 class="">Cook time</h2>
+                                <p class="cooktime"></p>
+                            </div>
+                            <div class="button-holder">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+    <footer>
+        <div class="wrapper">
+
+            <p>&copy; The Brown Dog Inc. 2019</p>
+        </div>
+    </footer>
+
+
+
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <script src="main.js"></script>
+</body>
+</html>

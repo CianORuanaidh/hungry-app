@@ -1,0 +1,377 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 125%; }
+
+body {
+  background-color: #DAE5D9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.wrapper {
+  width: 80%;
+  max-width: 1024px;
+  margin: 0 auto; }
+
+img {
+  width: 100%;
+  display: block; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+  ul li {
+    text-align: center; }
+
+header {
+  background-image: url(../assets/brooke-lark-230140-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  padding: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center; }
+
+h1 {
+  color: #1F1C1D;
+  font-family: 'Staatliches', cursive;
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+@media (min-width: 400px) {
+  h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 5rem;
+    text-transform: uppercase; } }
+
+@media (min-width: 480px) {
+  h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 6rem;
+    text-transform: uppercase; } }
+
+@media (min-width: 768px) {
+  h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 7rem;
+    text-transform: uppercase; } }
+
+@media (min-width: 940px) {
+  h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 8rem;
+    text-transform: uppercase; } }
+
+@media (min-width: 1080px) {
+  h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 9rem;
+    text-transform: uppercase; } }
+
+.display-none {
+  display: none; }
+
+h2 {
+  color: #1F1C1D;
+  font-family: 'Staatliches', cursive;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center; }
+
+#recipe-clicked {
+  padding: 0.1px;
+  background: #F4F7F8; }
+  #recipe-clicked .wrapper {
+    padding: 40px 0 40px 0; }
+  #recipe-clicked .chosen-photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  #recipe-clicked h2 {
+    font-size: 2rem; }
+  #recipe-clicked img {
+    -ms-flex-preferred-size: 400px;
+    flex-basis: 400px;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-height: 400px; }
+
+.imgredient-info p {
+  text-align: center; }
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .gallery .photo-box {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 5px 10px;
+    border: 2px dashed #E84B4B; }
+  .gallery .photo-box:nth-of-type(2) {
+    margin: 2% 0; }
+  .gallery .gallery-title {
+    padding: 10% 0; }
+  .gallery h2 {
+    margin: 0; }
+
+@media (min-width: 768px) {
+  .gallery {
+    padding-bottom: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch; }
+    .gallery .photo-box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .gallery .photo-box:nth-of-type(2) {
+      margin: 0 2%; }
+    .gallery a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; } }
+
+@media (min-width: 889px) {
+  .recipe-info h2 {
+    margin-top: 0;
+    line-height: 80%; }
+  .imgredient-info {
+    margin-left: 20px; } }
+
+footer {
+  background-color: #1F1C1D;
+  color: #F4F7F8; }
+  footer .wrapper p {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center; }
+
+#search-btn,
+#search-recipe {
+  margin: 0 auto; }
+
+#search-btn, #search-recipe {
+  background-color: #E84B4B;
+  border: 2px solid #E84B4B;
+  padding: 10px;
+  margin-top: 4%;
+  border-radius: 5px;
+  color: #F4F7F8; }
+
+#search-recipe {
+  background-color: #F4F7F8;
+  color: #1F1C1D; }
+
+button {
+  padding: 20px;
+  border-radius: 10px;
+  background: #9BBA99;
+  color: #F4F7F8;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase; }
+
+button:hover {
+  background-color: #E84B4B; }
+
+@media (min-width: 480px) {
+  #search-btn, #search-recipe {
+    padding: 17px; }
+  #search-recipe {
+    padding-right: 59px; } }
+
+@media (min-width: 768px) {
+  #search-btn, #search-recipe {
+    padding: 20px; }
+  #search-recipe {
+    padding-right: 100px; } }
+
+@media (min-width: 940px) {
+  #search-btn, #search-recipe {
+    padding: 23px; }
+  #search-recipe {
+    padding-right: 130px; } }

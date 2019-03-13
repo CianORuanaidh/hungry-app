@@ -1,0 +1,62 @@
+#search-btn,
+#search-recipe {
+    margin: 0 auto;
+}
+
+#search-btn, #search-recipe {
+    background-color: $main-detail-color;
+    border: 2px solid $main-detail-color;
+    padding: 10px;
+    margin-top: 4%;
+    border-radius: 5px;
+    color: $lightest-color;
+}
+
+#search-recipe {
+    background-color: $lightest-color;
+    color: $darkest-color;
+}
+
+button {
+    padding: 20px;
+    border-radius: 10px;
+    background: $secondary-detail-color;
+    color: $lightest-color;
+    border: none;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: $main-detail-color;
+}
+
+
+@media (min-width: 480px) {
+    #search-btn, #search-recipe{
+        padding: 17px;
+    }
+    #search-recipe{
+        padding-right: 59px;
+    }
+}
+//IPAD STYLES FOR HEADER
+@media (min-width: 768px) {
+    #search-btn, #search-recipe{
+        padding: 20px;
+    }
+    #search-recipe{
+        padding-right: 100px;
+    }
+}
+
+@media(min-width:940px){
+    #search-btn, #search-recipe{
+        padding:23px;
+    }
+    #search-recipe{
+        padding-right:130px;
+    }
+};
